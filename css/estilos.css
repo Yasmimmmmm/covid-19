@@ -1,0 +1,634 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #f5f5f5;
+    font-family:'contedo' ;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+
+@font-face{
+    font-family: 'titulo';
+    src:url('../fonts/Montserrat-SemiBold.otf') format('truetype')
+}
+@font-face{
+    font-family: 'conteudo';
+    src:url('../fonts/Montserrat-Light.otf') format('truetype')
+}
+@font-face{
+    font-family: 'conteudo-light';
+    src:url('../fonts/Montserrat-ExtraLight.otf') format('truetype')
+}
+
+
+h1{
+    font-family: 'titulo';
+    margin: auto;
+    padding: 25px;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+    
+    
+}
+
+
+
+#nav{
+    display: flex;
+    background-image: url('../img/istockphoto-1297985631-170667a.jpg');
+    opacity: 0.9;
+    border-bottom: 5px  solid #89373d;
+    flex-direction: column;
+    box-shadow: 2px 2px 6px black;
+     
+    
+}
+
+header nav{
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px black;
+    font-family:'conteudo' ;
+    
+}
+
+#menu{
+    width: 62px;
+    height: 62px;
+    margin: auto 0px auto 60px;
+}
+
+
+
+
+/* index.html */
+#container{
+    text-align: center;
+}
+
+#area-mapa{
+    width: 1200px;
+    height: 820px;
+    margin: 50px auto;
+}
+
+#pizza-tabela{
+    display: flex;
+    margin: 50px auto;
+    justify-content: space-evenly;
+}
+
+#area-pizza{
+    width: 450px;
+    height: 300px;
+    margin-bottom :80px;
+}
+
+#div-erro{
+    background-color: firebrick;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    display: none;
+}
+
+#pzz{
+    margin: 50px 0;
+}
+
+
+
+
+
+/* tabela */
+
+#tabelinha{
+    margin: 50px 0;
+}
+
+th{
+    font-family:'conteudo-light';
+    padding: 8px;
+    background-color: #89373d;
+    color: #f5f5f5;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+td{
+    font-family:'conteudo-light';
+    font-size: 16px;
+}
+
+.linhas{
+    background-color: #c3777c;
+}
+
+
+
+
+
+
+
+
+
+/* sobre.html */
+
+h2, h3{
+    font-family: 'conteudo';
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
+    font-family:'conteudo-light';
+    margin: 0 15px;
+    
+}
+#caixa{
+    display: flex;
+}
+
+#descricao{
+    text-align: center;
+    border-radius: 0px 90px;
+    margin: 50px ;
+    border: 2px solid #00669d;
+    width: 920px;
+    padding: 30px;
+    height: 200px;
+}
+#objetivo{
+    text-align: center;
+    border-radius: 90px 0px;
+    margin: 200px 50px 50px 50px;
+    border: 2px solid #00669d;
+    width: 920px;
+    padding: 30px;
+    height: 200px;
+}
+
+#dados{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 80px;
+}
+
+.box{
+    width: 370px;
+    box-shadow: 0px 0px 14px 0px #043956;
+    border-radius: 10px;
+    padding: 25px 15px;
+    text-align: center;
+    border: 2px solid #00669d;
+    margin-bottom: 50px;
+    
+}
+
+#facha{
+    background-color: #043956;
+    color: #f5f5f5;
+    text-align: center;
+    height: 70px;
+    font-family: 'conteudo';
+}
+h4{
+    margin: auto;
+    font-size: 38px;
+    padding: 10px;
+    color: #043956;
+    text-shadow: -1px 0px white, 0px 1px white, 1px 0px white, 0px -1px white;
+}
+
+
+#img-tec{
+    display: flex;
+    margin: 80px 50px 120px 50px;
+    border: 2px solid #043956;
+
+}
+
+#linguagens{
+    width: 680px;
+    margin: 50px 80px 50px 20px ;
+}
+
+#tecnologias{
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS PÁGINA - EQUIPE */
+.h3-equipe {
+    font-family: 'conteudo';
+    margin: 50px auto 10px auto;
+    padding: 20px;
+    font-size: 25px;
+}
+
+hr {
+    width: 80px;
+    justify-content: center;
+    background-color:#00669d;
+    padding: 2px;
+    margin: 20px auto 3px auto;
+}
+
+#alunas-equipe {
+    margin: 30px auto 50px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.alunas {
+    background-color: #00669d;
+    padding: 60px 0px;
+    border-radius: 15px;
+    margin: 5px 30px;
+}
+
+#mim {
+    border-radius: 180px;
+    width: 140px;
+    height: 130px;
+    margin: 3px 90px;
+}
+
+#vi {
+    border-radius: 180px;
+    width: 130px;
+    height: 120px;
+    margin: 3px 90px;
+}
+
+.p-equipe {
+    margin: 30px 70px 0px 70px;
+    text-align: center;
+    color: #f5f5f5;
+    font-family: 'conteudo';
+    font-size: 17px;
+}
+
+span {
+    width: 90px;
+    height: 5px;
+    justify-content: center;
+    background-color:#89373d;
+    padding: 2.1px;
+    margin: 30px auto 3px auto;
+}
+
+#container-equipe {
+    margin: 30px auto 50px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-profs {
+    background-color: #89373d;;
+    padding: 60px 0px;
+    border-radius: 15px;
+    margin: 5px 30px;
+    width: 410px;
+    height: 370px;
+}
+
+#cris {
+    border-radius: 180px;
+    width: 160px;
+    height: 160px;
+    margin: 20px 120px;
+}
+
+#sergio {
+    border-radius: 180px;
+    width: 160px;
+    height: 160px;
+    margin: 20px 120px;
+}
+
+.p-container {
+    margin: 30px 70px 0px 70px;
+    color: #f5f5f5;
+    font-family: 'conteudo';
+    font-size: 19px;
+    text-align: center;
+}
+
+.p-container2 {
+    margin: 30px 70px 0px 70px;
+    color: #f5f5f5;
+    font-family: 'conteudo';
+    font-size: 15px;
+    text-align: left;
+}
+
+
+
+/* FIM DA CSS PÁGINA - EQUIPE */
+
+
+
+
+
+
+
+
+
+/* footer css */
+
+footer{
+    display: flex;
+    background-color: #00669d;
+    border-top: 5px  solid #043956;
+    justify-content: center;
+    margin-top: auto;
+    color: white;
+   
+    
+}
+
+#span-footer{
+    font-family:'conteudo-light';
+    margin: 25px auto;
+}
+
+
+
+
+
+
+
+
+
+/* RESPONSIVIDADE -- tablet */
+@media(max-width: 991px ) {
+
+    #area-mapa{
+        width: 95%;
+        height: 480px;
+    }
+
+    #pizza-tabela{
+        flex-direction: column;
+    }
+
+    #area-pizza{
+        width: 570px;
+        height: 220px;
+        margin:  auto;
+    }
+
+   
+
+
+
+
+
+
+    /* sobre */
+
+    #caixa{
+        flex-direction: column;
+        
+    }
+
+    #objetivo{
+        width: 570px;
+        height: 200px;
+        margin: 20px auto;
+    }
+    #descricao{
+        width: 570px;
+        height: 200px;
+        margin: 20px auto;
+    }
+
+    #img-tec{
+        flex-direction: column;
+        margin: 50px 10px ;
+    }
+
+    #linguagens{
+        width: 520px;
+        margin: auto ;
+    }
+
+    #creditos{
+        flex-direction: column;
+    }
+
+    .box{
+        width: 320px;
+        margin: 20px auto;
+    }
+ 
+
+    
+
+
+
+
+
+
+    /* equipe */
+    h1 {
+        font-size: 45px;
+    }
+
+
+    #h3-equipe {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .alunas {
+        margin: 5px 35px 25px 35px;
+    }
+
+    .container-profs {
+        width: 370px;
+        height: 440px;
+        margin:  auto 15px;
+    }
+
+    .p-equipe {
+        font-size: 20px;
+    }
+
+    .p-container {
+        font-size: 20px;
+    }
+
+    .p-container2 {
+        font-size: 17px;
+    }
+}
+
+
+@media(max-width:767px) {
+
+    nav a{
+        margin: 0 5px;
+    }
+    
+    
+    /* index */
+        #area-mapa{
+            width: 95%;
+            height: 300px;
+        }
+    
+    
+        #pizza-tabela{
+            flex-direction: column;
+        }
+    
+        #area-pizza{
+            width: 370px;
+            height: 220px;
+            margin:  auto;
+        }
+    
+        #pzz{
+            margin: 70px 0;
+        }
+       #tabelinha{
+            width: 95%;
+            margin: auto;
+        }
+    
+        #tabela-dados{
+            width: 95%;
+            overflow: auto ;
+        }
+    
+    
+    
+    /* sobre */
+        #dados{
+            flex-direction: column;
+        }
+    
+        p{
+            margin: 10px;
+        }
+        .box{
+            width: 320px;
+            margin: 20px auto;
+        }
+        #img-tec{
+            flex-direction: column;
+            margin: 50px 10px ;
+        }
+    
+        #linguagens{
+            width: 320px;
+            margin: auto ;
+        }
+        h4{
+            font-size: 28px;
+        }
+    
+        #caixa{
+            flex-direction: column;
+          
+        }
+    
+        #objetivo{
+            width: 300px;
+            height: 320px;
+            margin: 20px auto;
+        }
+        #descricao{
+            width: 300px;
+            height: 350px;
+            margin: 20px auto;
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* equipe */
+        #h3-equipe {
+            margin: 30px 4px 10px 4px;
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+    
+        #alunas-equipe {
+            flex-direction: column;
+        }
+    
+        .alunas {
+            padding: 60px 0px;
+            border-radius: 15px;
+            margin: 5px 30px 30px 30px;
+        }
+    
+        #container-equipe {
+            flex-direction: column;
+    
+        }
+    
+        .container-profs  {
+            margin: 5px 10px;
+            width: 360px;
+            height: 420px;
+            margin: 5px auto 35px auto;
+        }
+    
+        #cris {
+            margin: 20px 100px;
+        }
+    
+        #sergio {
+            margin: 20px 100px;
+        }
+    
+    
+    
+    
+        footer{
+            text-align: center;
+            padding: 7px 0;
+            
+    
+        }
+    
+     
+      
+    }
+    
+    
+    
